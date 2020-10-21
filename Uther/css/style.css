@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.rouge {
+    background-color: red;
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.bleu {
+    background-color: blue;
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
